@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\character">
+      <UniqueIdentifier>{7f6f67c4-74c7-4ca9-a067-fe71a23a371f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\bullet">
+      <UniqueIdentifier>{37301e10-a460-42d2-9fa5-2b317b373773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\manager">
+      <UniqueIdentifier>{b1883f0b-2af7-4eca-8ef2-36632b174ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\collision">
+      <UniqueIdentifier>{aefd5093-2bba-4f2f-b9d9-a8e334e11f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\state">
+      <UniqueIdentifier>{1b3848cb-7bca-4ccd-aa25-0cfb49242d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tool">
+      <UniqueIdentifier>{d9945050-70eb-44a2-970d-89e3bfff1cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\state">
+      <UniqueIdentifier>{c8ebdc72-f5de-4da4-b95c-705be8c5b118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tool">
+      <UniqueIdentifier>{9a95e5ae-721e-4b7b-89d8-fd06e59e4705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\manager">
+      <UniqueIdentifier>{bded0626-f626-4ee3-9a27-db17e2f1fd5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\character">
+      <UniqueIdentifier>{cf490331-015b-4152-8814-e67da16bb968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bullet">
+      <UniqueIdentifier>{38fb0e7b-ecd2-4c6d-8648-c43dd155a2b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\collision">
+      <UniqueIdentifier>{05089869-91a0-403f-8c11-b445b310a845}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Character.h">
+      <Filter>头文件\character</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>头文件\character</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>头文件\character</Filter>
+    </ClInclude>
+    <ClInclude Include="Barb.h">
+      <Filter>头文件\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>头文件\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Character_manager.h">
+      <Filter>头文件\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>头文件\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerSingle.h">
+      <Filter>头文件\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet_time_manager.h">
+      <Filter>头文件\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourcesManager.h">
+      <Filter>头文件\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision_box.h">
+      <Filter>头文件\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision_layer.h">
+      <Filter>头文件\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="State_node.h">
+      <Filter>头文件\state</Filter>
+    </ClInclude>
+    <ClInclude Include="State_machine.h">
+      <Filter>头文件\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_state_node.h">
+      <Filter>头文件\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_state_node.h">
+      <Filter>头文件\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Atlas.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet_time_manager.cpp">
+      <Filter>源文件\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Character_manager.cpp">
+      <Filter>源文件\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>源文件\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourcesManager.cpp">
+      <Filter>源文件\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件\character</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>源文件\character</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>源文件\character</Filter>
+    </ClCompile>
+    <ClCompile Include="Barb.cpp">
+      <Filter>源文件\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>源文件\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="State_machine.cpp">
+      <Filter>源文件\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_state_node.cpp">
+      <Filter>源文件\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_state_node.cpp">
+      <Filter>源文件\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision_box.cpp">
+      <Filter>源文件\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Atlas.cpp">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
